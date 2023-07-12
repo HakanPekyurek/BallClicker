@@ -24,7 +24,7 @@ public class SpawnManager : MonoBehaviour
     private Vector3 CalculateRandomBallPosition()
     {
         Vector3 position = Vector3.zero;
-        float randomAngle = Random.Range(0f, 360f);
+        float randomAngle = Random.Range(0f, 361f);
         position.x = Mathf.Cos(randomAngle) * radius;
         position.y = Mathf.Sin(randomAngle) * radius;
 

@@ -9,7 +9,7 @@ public class PlayerRotater : MonoBehaviour
 
     private void Start()
     {
-        spinDirection = 1;
+        spinDirection = 1f;
         verticalInput = Input.GetAxis("Vertical");
         rotateSpeed = 70f;
         gameManager = FindObjectOfType<GameManager>();
